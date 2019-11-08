@@ -1,0 +1,95 @@
+@import '_vars';
+@import 'modules/_things';
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+
+//main scss page pertains the home.hbs page
+
+body {
+    background-color: $body-bg;
+}
+
+h1 
+{ 
+    color: $hotPink;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+h2, h4
+{
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    color: $text-color;
+    padding-left: 90px;
+    padding-right: 90px;
+
+}
+
+h3
+{
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: $text-color;
+    font-family: 'Francois One', sans-serif;
+
+}
+
+
+ul
+{
+    text-decoration: none;
+    text-align: center;
+}
+
+li{
+    text-decoration: none;
+    margin: auto;
+    display: inline-block;
+}
+
+li a 
+{
+    text-transform: none;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+}
+
+img 
+{
+    margin: auto;
+    display: block;
+    height: 50%;
+}
+
+a
+{
+    text-decoration: none;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    color: $anchor-color;
+    font-size: 1.5em;
+}
+
+a:hover, a:focus, a:active 
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+p
+{
+    text-align: center;
+}
+
+#errorGif
+{
+    margin: auto;
+    display: block;
+}
+
+.error-home
+{
+    font-family: 'Francois One', sans-serif;
+    text-decoration: none; 
+}

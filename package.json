@@ -1,0 +1,27 @@
+{
+  "name": "testmodules",
+  "version": "1.0.0",
+  "description": "using classes with node and express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trevor-FanshaweC/DayOne_Fall19.git"
+  },
+  "keywords": [
+    "classes",
+    "node",
+    "javascript"
+  ],
+  "author": "TVR",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "hbs": "^4.0.6",
+    "mysql": "^2.17.1"
+  }
+}

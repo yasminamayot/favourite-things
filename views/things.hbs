@@ -1,0 +1,24 @@
+<!--My favourite things page-->
+
+<div class="things">
+    <h1>List of My Favourite Things <3</h1>
+        <!-- loop through all our team members and put their info on the page -->
+        {{#each favouriteThings}} <!-- this is like a  JS forEach loop -->
+            <div>
+            <img src="images/{{Image}}">
+            <a href="{{ID}}">
+                <p>See More Info</p>
+            </a>
+
+            <h1>{{Name}}</h1>
+            <h3>{{Description}}</h3>
+            <h4>{{Experience}}</h4>
+
+            </div>
+        {{/each}}   
+
+            <ul>
+    
+        </ul>
+
+    </div>
